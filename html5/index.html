@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>表格</title>
+</head>
+<body >
+    <table border="1"> <!--定义边框的大小-->
+        <caption>表格的标题</caption>  <!--表格的标题-->
+        <tr>
+            <th>第一列</th>  <!--定义表头-->
+            <th colspan="2">第二列</th> <!--跨列-->
+        </tr>
+        <tr>
+            <td>
+                <p>这是一个段落</p>
+                <a href="hrefht.html" style="text-decoration:navy">链接</a>
+
+            </td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border="1" bgcolor="red">
+                    <tr>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="red">&nbsp;</td>  <!--跨行以及空格标识-->
+            <td>row 2, cell 2</td>
+            <td>row 2, cell 3</td>
+        </tr>
+        <tr>
+            <td>
+                <h1>row 3, cell 2</h1>
+            </td>
+            <td>row 3, cell 3</td>
+        </tr>
+    </table>
+</body >
+</html>

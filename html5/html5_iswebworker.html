@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>检测Web Worker支持</title>
+</head>
+<body>
+    <script>
+        if(typeof(Worker)!="undefined")
+        {
+            //Some code.....
+            document.write("Yes! Web worker support！")
+        }
+        else
+        {
+            //
+            document.write("Sorry! No Web Worker support..")
+        }
+    </script>
+</body>
+</html>

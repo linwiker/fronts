@@ -6,8 +6,17 @@
 </head>
 <body>
     <script type="text/javascript">
-        sessionStorage.lastname='wiker';
-        document.write(sessionStorage.lastname);
+//        sessionStorage.lastname='wiker';
+//        document.write(sessionStorage.lastname);
+        if (sessionStorage.pagecount)
+        {
+            sessionStorage.pagecount=Number(sessionStorage.pagecount)+1;
+        }
+        else
+        {
+            sessionStorage.pagecount=1;
+        }
+        document.write("Visits "+sessionStorage.pagecount+" time(s) this session.");
     </script>
 </body>
 </html>

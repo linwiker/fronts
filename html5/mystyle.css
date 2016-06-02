@@ -1,6 +1,7 @@
-h1{
-    color: red;
+div#divid p{
+    color: #18aa11;
 }
-p{
-    color: orangered;
+div#divid a{
+    color: #1d1baa;
 }
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>autocpmplete</title>
+</head>
+<body>
+    <form autocomplete="on" id="user_form" novalidate="">
+        First name: <input type="text" name="fname" /><br />
+        Last name: <input type="text" autocomplete="on" /><br />
+        User name: <input type="text" name="user_name" autofocus="autofocus"><br />
+        Select images: <input type="file" name="img" multiple="multiple"><br />
+        Email: <input type="email" name="user_email" /><br />
+        Country code: <input type="text" name="country_code" pattern="[A-z]{4}" title="Three letter code">
+
+        <br />
+        <input type="search" name="user_search" placeholder="BAIDUYIXIA">
+        <br />
+        Name: <input type="text" name="usr_name" required="required">
+        <input type="submit">
+    </form>
+    Three name: <input type="text" name="tname" form="user_form" />
+</body>
+</html>
